@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Tsiahy | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="glitch-text" data-text="[ DECRYPTING PORTFOLIO ]">[ DECRYPTING PORTFOLIO ]</div>
+        <div class="loader-bar"></div>
+        <div class="loader-stats">tsiahy@rajosoanirina:~# portfolio.exe — 0%</div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="noise-overlay"></div>
+    <div class="scanline"></div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <span class="blink-cursor">&lt;/></span> <span class="logo-text">Bash</span> <span class="status-dot"></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-item active-nav">~ Accueil</a></li>
+                <li><a href="#a-propos" class="nav-item">~ À propos</a></li>
+                <li><a href="#projets" class="nav-item">~ Projets</a></li>
+                <li><a href="#competences" class="nav-item">~ Compétences</a></li>
+                <li><a href="#experiences" class="nav-item">~ Expériences</a></li>
+                <li><a href="#contact" class="nav-item">~ Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-terminal"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECTION ACCUEIL -->
+        <section id="accueil" class="section hero-section">
+            <div class="hero-container hero-flex">
+                <div class="hero-left">
+                    <div class="hero-badge">
+                        <i class="fas fa-skull"></i> [ PORTFOLIO ACCESS : GRANTED ] <i class="fas fa-shield-haltered"></i>
+                    </div>
+                    <h1 class="hero-name">Tsiahy RAJOSOANIRINA</h1>
+                    <div class="typewriter-sub">
+                        <p><span class="cmd-prompt">$></span> <span id="typing-text"></span><span class="cursor-blink">_</span></p>
+                    </div>
+                    <div class="hero-description">
+                        <p><span class="cmd-prompt">$> Mon histoire</span></p>
+                        <p>« <strong>J'ai quitté ma famille </strong>, mon pays, et tout ce que je connaissais pour venir en France. Pourquoi ? Parce que j'ai une obsession : comprendre comment les systèmes se font pirater... pour mieux les défendre. »</p>
+                        <p class="identity-line"><span class="cmd-prompt">$> Mes Objectifs</span></p>
+                        <p><strong>Objectif à court terme</strong> — Valider ma 2ème année de BUT Réseaux et Télécommunications, puis choisir viser vers le haut : intégrer une école d'ingénieur pour me spécialiser encore plus.</p>
+                        <p><strong>Objectif à long terme</strong> — Devenir Freelance en <strong>hacking éthique</strong>. Mission : Sécuriser des infrastructures, trouver des failles, protéger des entreprises. Indépendant, mais utile.</p>
+                    </div>
+                    <div class="cta-group">
+                        <a href="#a-propos" class="cta-btn primary-cta"><i class="fas fa-user"></i> En savoir plus sur moi</a>
+                        <a href="CV_Tsiahy_V3.pdf" download class="cta-btn secondary-cta" id="download-cv">
+                        <i class="fas fa-file-download"></i> Télécharger mon CV (PDF)
+                    </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-photo">
+                        <img src="Photo.png" alt="Tsiahy RAJOSOANIRINA - portrait">
+                        <div class="photo-glitch-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION À PROPOS -->
+        <section id="a-propos" class="section about-section">
+            <div class="container">
+                <h2 class="section-title"><span class="title-bracket">&lt;about&gt;</span> À PROPOS <span class="title-bracket">&lt;/about&gt;</span></h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><span class="quote-mark">“</span> Je suis étudiant arrivé de Madagascar pour réaliser un rêve : étudier la cybersécurité en France.</p>
+                        <p>Petit, je cliquais partout sans comprendre. Aujourd'hui, je veux savoir comment ça marche vraiment. C'est pour ça que j'ai choisi le <strong>BUT Réseaux & Télécommunications</strong>.</p>
+                        <p>Ce que j'apprends en cours : configurer des routeurs Cisco, manipuler des VLANs, tester des ACLs, capturer du trafic avec Wireshark. Je débute, mais je suis curieux et je veux tout comprendre.</p>
+                        <p>Aujourd'hui, je vis seul en France, loin de ma famille. L'école est mon terrain de jeu : réseaux, téléphonie, électronique, programmation, systèmes d'exploitation. Je me donne à fond.</p>
+                        <p>Les projets en cours m'ont appris à persévérer et à chercher des solutions par moi-même.</p>
+                        <p>En dehors des cours, je fais un job étudiant le week-end pour aider mes parents à financer mes études et ma vie quotidienne en France.</p>
+                        <p>Si vous voulez voir concrètement ce que j'ai réalisé, je vous invite à explorer mes projets.</p>
+                        <div class="cta-group" style="margin-top: 20px;">
+                            <a href="#contact" class="cta-btn primary-cta"><i class="fas fa-envelope"></i> Contactez-moi ici</a>
+                        </div>
+                    </div>
+                    <div class="about-code">
+                        <div class="code-window">
+                            <div class="code-header">
+                                <span class="circle red"></span>
+                                <span class="circle yellow"></span>
+                                <span class="circle green"></span>
+                                tsiahy@à_propos:~$
+                            </div>
+                            <pre><code>>>> whoami
+{
+  "nom": "Tsiahy RAJOSOANIRINA",
+  "origine": "Madagascar",
+  "formation": "BUT Réseaux & Télécoms - 1ère année",
+  "passions": ["cybersécurité", "réseaux", "développement web"],
+  "objectif": "Freelance en Hacking éthique",
+  "état_esprit": "Curiosité, discipline, persévérance"
+}
+<span class="cursor-block">█</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PROJETS -->
+        <section id="projets" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title"><span class="title-bracket">[+]</span> PROJETS <span class="title-bracket">[+]</span></h2>
+                
+                <!-- Domaine : Informatique -->
+                <div class="domaine-section">
+                    <div class="domaine-title">
+                        <span class="cmd-prompt">$></span> Informatique
+                    </div>
+                    <div class="projects-grid">
+                        <div class="project-card-mini" data-project="thales">
+                            <div class="project-img">
+                                <img src="thales.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="project-title-mini">Système embarqué - Traçabilité photographique</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Domaine : Non technique -->
+                <div class="domaine-section">
+                    <div class="domaine-title">
+                        <span class="cmd-prompt">$></span> Non technique
+                    </div>
+                    <div class="projects-grid">
+                        <div class="project-card-mini" data-project="portfolio">
+                            <div class="project-img">
+                                <img src="portfolio.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="project-title-mini">Portfolio - Site web personnel</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- MODALE -->
+                <div id="projectModal" class="modal">
+                    <div class="modal-content">
+                        <span class="modal-close">&times;</span>
+                        <div id="modal-body"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION COMPÉTENCES -->
+        <section id="competences" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title"><span class="title-bracket">&lt;skills&gt;</span> COMPÉTENCES <span class="title-bracket">&lt;/skills&gt;</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-cat">
+                        <i class="fas fa-network-wired"></i> Réseau
+                        <div class="skill-items">
+                            • Protocole TCP/IP (HTTP/HTTPS, DHCP, ARP, ICMP, FTP, DNS, SMTP, SSH, TELNET)<br>
+                            • Linux Debian/Windows (VirtualBox)<br>
+                            • Configuration matériels CISCO (Cisco Packet Tracer, Putty)<br>
+                            • Fragmentation sous-réseaux (Subnetting, Vlan)<br>
+                            • Routage statique et dynamique (OSPF/RIP)<br>
+                            • Translation d'adresse IP (NAT Masquerading, Port Forwarding)<br>
+                            • Filtrage du trafic réseau (ACL)<br>
+                            • Gestion de la redondance (HSRP/STP)<br>
+                            • Adressage IPv6
+                        </div>
+                    </div>
+                    <div class="skill-cat">
+                        <i class="fas fa-code"></i> Programmation et modélisation informatique
+                        <div class="skill-items">
+                            • Python Orienté Objet et C<br>
+                            • PHP/CSS/SQL/JS Jquery (VS Code)<br>
+                            • Organigrammes (Drawio)<br>
+                            • Schéma entités/associations (LibreOffice)
+                        </div>
+                    </div>
+                    <div class="skill-cat">
+                        <i class="fas fa-microchip"></i> Télécommunications
+                        <div class="skill-items">
+                            • Montage électrique d'un circuit<br>
+                            • Etudes des caractéristiques d'un signal et décodage (MyJupyter-Notebook, Logisim)<br>
+                            • Etudes des fonctions complexes et logarithmiques (Matlab)<br>
+                            • Câblage d'un bâtiment<br>
+                            • Etude d'un câble coaxial
+                        </div>
+                    </div>
+                    <div class="skill-cat">
+                        <i class="fas fa-language"></i> Langues
+                        <div class="skill-items">
+                            • Français (C1)<br>
+                            • Anglais (B2)<br>
+                            • Allemand (A2)<br>
+                            • Malgache (Langue maternelle)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION EXPÉRIENCES -->
+        <section id="experiences" class="section experiences-section">
+            <div class="container">
+                <h2 class="section-title"><span class="title-bracket">[~]</span> EXPÉRIENCES <span class="title-bracket">[~]</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-users"></i></div>
+                        <div class="timeline-content">
+                            <h3>Projets d'équipe académiques </h3>
+                            <p class="date">09/2025 - En cours | Université Côte d'Azur, France</p>
+                            <p>Réalisation d'un système embarqué de traçabilité photographique pour banc avionique, à l'aide d'un Raspberry Pi, en partenariat avec Thalès Alenia Space</p>
+                            <p>Travail sous GitHub, application d'un RACI, analyse des risques, réalisation d'un planning</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <h3>Job étudiant Week-end, U Express</h3>
+                            <p class="date">03/2026 - En cours | Saint Laurent du Var, France</p>
+                            <p>Accueil et encaissement : gestion des transactions</p>
+                            <p>Facing : mise en avant des produits et réapprovisionnement</p>
+                            <p>Boulangerie : préparation et cuisson du pain</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <!-- SECTION CONTACT -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title"><span class="title-bracket">&lt;connect&gt;</span> CONTACT <span class="title-bracket">&lt;/connect&gt;</span></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-infos">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:trajosoanirina@gmail.com" class="contact-link">trajosoanirina@gmail.com</a> <span class="contact-note">(perso)</span></p>
+                        <p><i class="fas fa-school"></i> <a href="mailto:tsiahy.rajosoanirina@etu.univ-cotedazur.fr" class="contact-link">tsiahy.rajosoanirina@etu.univ-cotedazur.fr</a> <span class="contact-note">(université)</span></p>
+                        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tsiahy-rajoanirina-094ab8269" target="_blank" class="contact-link">linkedin.com/in/tsiahy-rajosoanirina</a></p>
+                        <p><i class="fab fa-github"></i> <a href="https://github.com/tsiahy-07" target="_blank" class="contact-link">github.com/tsiahy-07</a></p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+33672742550" class="contact-link">+33 6 72 74 25 50</a></p>
+                        <p><i class="fab fa-discord"></i> <span class="contact-link">tsiahy007</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Tsiahy RAJOSOANIRINA - BUT Réseaux & Télécommunications - <span class="glitch-footer">#Portfolio</span></p>
+        </div>
+    </footer>
+
+    <script>
+        // PRELOADER
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.style.opacity = '0';
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                }, 800);
+            }, 1500);
+            
+            let percent = 0;
+            const loaderStat = document.querySelector('.loader-stats');
+            const interval = setInterval(() => {
+                if(percent >= 100) clearInterval(interval);
+                else {
+                    percent += Math.floor(Math.random() * 15) + 3;
+                    if(percent > 100) percent = 100;
+                    loaderStat.innerText = `tsiahy@rajosoanirina:~# portfolio.exe — ${percent}%`;
+                }
+            }, 90);
+        });
+
+        // TYPING EFFECT
+        const texts = ["whoami> Bienvenue sur mon site Web! Je suis Tsiahy", "Etudiant en 1ère année de BUT Réseaux et Télécommunications", "Passionné par l'informatique, les réseaux et la cybersécurité"];
+        let index = 0;
+        let charIndex = 0;
+        let currentText = "";
+        let isDeleting = false;
+        const typingElement = document.getElementById("typing-text");
+        
+        function typeEffect() {
+            if(!typingElement) return;
+            if(isDeleting) {
+                currentText = currentText.slice(0, charIndex--);
+                typingElement.innerText = currentText;
+                if(charIndex < 0) {
+                    isDeleting = false;
+                    index = (index+1) % texts.length;
+                    currentText = texts[index];
+                    setTimeout(typeEffect, 300);
+                } else {
+                    setTimeout(typeEffect, 40);
+                }
+            } else {
+                if(charIndex < currentText.length) {
+                    typingElement.innerText = currentText.slice(0, ++charIndex);
+                    setTimeout(typeEffect, 70);
+                } else {
+                    isDeleting = true;
+                    setTimeout(typeEffect, 2500);
+                }
+            }
+        }
+        
+        setTimeout(() => {
+            currentText = texts[0];
+            typeEffect();
+        }, 500);
+
+        // ACTIVE NAVIGATION
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.nav-item');
+        
+        function updateActiveSection() {
+            let current = '';
+            const scrollPos = window.scrollY + 150;
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if(scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active-nav');
+                const href = link.getAttribute('href').substring(1);
+                if(href === current) link.classList.add('active-nav');
+            });
+        }
+        
+        window.addEventListener('scroll', updateActiveSection);
+        updateActiveSection();
+        
+        // SMOOTH SCROLL
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+        
+        // DONNÉES DES PROJETS AVEC COMMENTAIRES PERSONNELS
+        const projectsData = {
+            thales: {
+                title: "PHOTO_ATB - Système de traçabilité et archivage photographique pour banc avionique",
+                tag: "#SAE24 #SYSTÈME_EMBARQUÉ #THALES_ALENIA_SPACE #BUT1_R&T",
+                objective: "Mettre en place un système qui capture automatiquement l'état du banc avant chaque test, archive les photos avec leurs métadonnées et permet une consultation historique via une interface web locale. En partenariat avec Thales Alenia Space.",
+                actions: [
+                    "Définition de 30 exigences fonctionnelles (3 profils utilisateurs, marquage de photo à supprimer, log d'événements...)",
+                    "Travail en équipe de 4 sous GitHub, application de la méthode RACI, d'un planning initial/final",
+                    "Analyse des risques et gestion des anomalies, tests de validation",
+                    "Développement d'un script Python orchestrant la caméra, le capteur de luminosité BH1750 (I2C) et la LED",
+                    "Création d'un site web complet en PHP avec authentification, galerie photo, gestion utilisateurs et logs",
+                    "Conception d'une base de données MySQL avec tables users, photos, events, config",
+                    "Implémentation des mesures de sécurité : hashage des mots de passe, tokens CSRF",
+                    "Mise en place d'un flux vidéo en direct (mjpg-streamer) avec gestion des conflits caméra",
+                    "Script automatique (cron) vérifiant toutes les heures si une photo est nécessaire (24h)",
+                    "Documentation technique complète du projet (installation, configuration, schémas, codes)",
+                    "Configuration du Raspberry PI et contrôle par SSH"
+                ],
+                techs: ["Raspberry Pi 3", "Caméra USB", "Capteur BH1750 (luminosité)", "LED avec Résistance", "Apache", "PHP", "MySQL", "Python Orienté Objet", "mjpg-streamer", "fswebcam", "Git", "RACI", "SSH"],
+                proofs: [
+                    { name: "Dépôt GitHub", icon: "fa-github", link: "#" },
+                    { name: "Documentation technique PDF", icon: "fa-file-alt", link: "#" },
+                    { name: "Vidéo démonstration", icon: "fa-video", link: "#" },
+                    { name: "Schéma électronique", icon: "fa-microchip", link: "#" }
+                ],
+                comment: "Ce projet m'a énormément appris sur la gestion de projet même si parfois il m'était difficle de le gérer tout seul. Par exemple, coder la partie PHP m'a pris toutes les vacances de 2 semaines. Mais le pire reste la phase ou je dois corriger les erreurs de code, ou que je dois le réadapter car cela ne respecte pas les exigences voulues. Mais d'un côté cela m'a plus car cela me permettait enfin de mettre en pratique les compétences qu'on a mobilisées dans les autres modules. "
+            },
+            portfolio: {
+                title: "Portfolio - Site web personnel",
+                tag: "#SAE25 #CRÉATIVITÉ #BUT1_R&T",
+                objective: "Créer un site portfolio qui reflète ma personnalité et mon univers de la cybersécurité. L'objectif n'était pas seulement de faire un site, mais de construire une ambiance, une émotion, une mémoire chez le visiteur.",
+                actions: [
+                    "Choix d'une palette sombre (noir, vert néon, touches cyan)",
+                    "Création d'une hiérarchie visuelle (tailles, contrastes, espacements)",
+                    "Ajout d'effets subtils (lueur verte au survol, scanline, bruit TV, préchargement)",
+                    "Rédaction d'un contenu sincère (parcours Madagascar, vie étudiante, job en parallèle)",
+                    "Tests d'affichage sur différents navigateurs et ajustements des polices/marges",
+                    "Correction des codes HTML/CSS/JavaScript",
+                ],
+                techs: ["Créativité", "Structuration", "Autonomie"],
+                proofs: [
+                    { name: "Aperçu du projet", icon: "fa-globe", link: "#" },
+                    { name: "Code source ", icon: "fa-github", link: "#" }
+                ],
+                comment: "Ce portfolio est bien plus qu'un projet scolaire pour moi. C'est la première fois que je crée quelque chose d'aussi personnel. J'ai appris à me remettre en question sur les compétences que j'ai acquises, les exériences que j'ai vécues, dont je n'avais pas pris en compte. Chaque effet, chaque détail a été pensé pour immerger le visiteur dans mon univers de Cybersecurité."
+            }
+        };
+
+        // MODALE PROJETS
+        const modal = document.getElementById('projectModal');
+        const modalBody = document.getElementById('modal-body');
+        const closeBtn = document.querySelector('.modal-close');
+
+        function showProject(projectId) {
+            const p = projectsData[projectId];
+            if (!p) return;
+            
+            let html = `
+                <div class="project-detail">
+                    <div class="project-tag ${projectId === 'portfolio' ? 'nontech-tag' : 'tech-tag'}">${p.tag}</div>
+                    <h3>${p.title}</h3>
+                    <p><i class="fas fa-bullseye"></i> <strong>Objectif :</strong> ${p.objective}</p>
+                    <br>
+                    <strong>Actions réalisées :</strong>
+                    <ul>
+                        ${p.actions.map(a => `<li>${a}</li>`).join('')}
+                    </ul>
+                    <strong>Technologies / compétences :</strong><br>
+                    ${p.techs.map(t => `<span class="tech-badge-modal">${t}</span>`).join('')}
+                    <br><br>
+                    <strong>Preuves :</strong><br>
+                    <div class="project-proofs">
+                        ${p.proofs.map(proof => `<a href="${proof.link}" class="proof-link"><i class="fas ${proof.icon}"></i> ${proof.name}</a>`).join('')}
+                    </div>
+                    <div class="personal-comment">
+                        <h4><i class="fas fa-comment"></i> Mon retour personnel sur ce projet</h4>
+                        <p>${p.comment}</p>
+                    </div>
+                </div>
+            `;
+            
+            modalBody.innerHTML = html;
+            modal.style.display = 'flex';
+        }
+
+        if (closeBtn) {
+            closeBtn.onclick = function() {
+                modal.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        document.querySelectorAll('.project-card-mini').forEach(card => {
+            card.addEventListener('click', () => {
+                const projectId = card.getAttribute('data-project');
+                showProject(projectId);
+            });
+        });
+        
+        // DOWNLOAD CV - Téléchargement direct
+        const cvBtn = document.getElementById('download-cv');
+        if(cvBtn) {
+            cvBtn.addEventListener('click', (e) => {
+                // Ne pas bloquer le téléchargement
+                // Le lien va fonctionner normalement grâce à l'attribut download dans le HTML
+            });
+        }
+        
+        // MENU TOGGLE RESPONSIVE
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinksContainer = document.querySelector('.nav-links');
+        if(menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navLinksContainer.classList.toggle('nav-active');
+                document.body.classList.toggle('no-scroll');
+            });
+        }
+    </script>
+</body>
+</html>
