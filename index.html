@@ -420,7 +420,6 @@
                     <ul>
                         ${p.actions.map(a => `<li>${a}</li>`).join('')}
                     </ul>
-                    <strong>Technologies / compétences :</strong><br>
                     <div class="personal-comment">
                         <h4><i class="fas fa-comment"></i> Mon retour personnel sur ce projet</h4>
                         <p>${p.comment}</p>
@@ -432,11 +431,9 @@
                     <strong>Preuves :</strong><br>
                     <div class="project-proofs">
                         ${p.proofs.map(proof => `<a href="${proof.link}" class="proof-link"><i class="fas ${proof.icon}"></i> ${proof.name}</a>`).join('')}
-                    </div>ment}</p>
                     </div>
                 </div>
-            `;
-            
+            `;        
             modalBody.innerHTML = html;
             modal.style.display = 'flex';
         }
